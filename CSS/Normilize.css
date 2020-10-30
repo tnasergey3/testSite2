@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+font-family: "IndieFlower";
+src: url('../../Recorder.com/fonts/IndieFlower-Regular.eot');
+src: url('../../Recorder.com/fonts/IndieFlower-Regular.eot?iefix') format('eot'),
+url('../../Recorder.com/fonts/IndieFlower-Regular.woff') format('woff'),
+url('../../Recorder.com/fonts/IndieFlower-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+font-family: "BigShoulder";
+src: url('../../Recorder.com/fonts/BigShouldersText-Regular.eot');
+src: url('../../Recorder.com/fonts/BigShouldersText-Regular.eot?iefix') format('eot'),
+url('../../Recorder.com/fonts/BigShouldersText-Regular.woff') format('woff'),
+url('../../Recorder.com/fonts/BigShouldersText-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+font-family: "Slabo27";
+src: url('../../Recorder.com/fonts/Slabo27px-Regular.eot');
+src: url('../../Recorder.com/fonts/Slabo27px-Regular.eot?iefix') format('eot'),
+url('../../Recorder.com/fonts/Slabo27px-Regular.woff') format('woff'),
+url('../../Recorder.com/fonts/Slabo27px-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+@font-face {
+font-family: "Logofont";
+src: url('../../Recorder.com/fonts/SairaStencilOne-Regular.eot');
+src: url('../../Recorder.com/fonts/SairaStencilOne-Regular.eot?iefix') format('eot'),
+url('../../Recorder.com/fonts/SairaStencilOne-Regular.woff') format('woff'),
+url('../../Recorder.com/fonts/SairaStencilOne-Regular.ttf') format('truetype');
+     font-weight: normal;
+     font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+   }
+.clearfix:after{
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+div {
+	box-sizing: border-box;
+}
+button {
+	border: none;
+	cursor: pointer;
+}
+li {list-style: none;}
+a {	text-decoration: none;}
